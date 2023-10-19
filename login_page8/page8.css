@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+body{
+    border: 1px solid black;
+    width: 500px;
+    height:400px;
+    margin:auto;
+    margin-top: 180px;
+    border: none;
+    background: url("../../picture/3d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.from_style h1{
+     text-align: center;
+     font-size: 80px; 
+     margin:30px;  
+     color:white; 
+     text-shadow: 1px 10px 1px rgb(43, 41, 41),
+                      1px 2px 1px  rgb(43, 41, 41),
+                      1px 3px 1px  rgb(43, 41, 41),
+                      1px 4px 1px rgb(43, 41, 41),
+                      1px 5px 1px rgb(43, 41, 41),
+                      1px 6px 1px rgb(43, 41, 41),
+                      1px 7px 1px  rgb(43, 41, 41);
+
+}
+.input p{
+    font-size: 20px; 
+    margin-left: 100px;
+    color:white; 
+    font-family:sans-serif ;   
+}
+.input input{
+   margin-left: 90px; 
+   width: 350px;
+   height: 35px;
+   border-radius: 20px;
+   box-shadow:  3px 8px rgb(28, 27, 27);
+   border:none;
+    
+}
+.pass p{
+    font-size: 20px; 
+    margin-left: 100px;
+    margin-top:30px; 
+    color:white;  
+    font-family:sans-serif ; 
+}
+.pass input{
+    margin-left: 90px; 
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    box-shadow:  3px 8px rgb(27, 25, 25);
+    border: none;
+
+
+}
+.chack label{
+     font-size: 25px;
+     margin-top: 150px;
+     color: white;
+     font-family:sans-serif ;
+     
+}
+.chack input{
+    margin-left: 120px;
+    margin-top: 40px;
+    color:white;
+    width: 25px;
+    height: 25px;
+    box-shadow:  2px 4px rgb(0, 0, 0);
+}
+.btn button{
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: red;
+    color:aliceblue;
+    font-size: 20px;
+    font-family:sans-serif ;
+    border: none;
+    box-shadow:  3px 10px rgb(0, 0, 0);
+ 
+}
