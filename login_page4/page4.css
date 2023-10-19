@@ -1,0 +1,60 @@
+body{
+    background: url("../../picture/abs.webp");
+    border-radius: 30px;
+}
+.from{
+    border: 1px solid black;
+    width:500px;
+    height:450px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 160px;
+    
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+
+}
+.from:hover{
+    box-shadow: 0px 2px 67px #62cc6a;
+}
+.from input{
+    width:400px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 20px;
+    margin:10px;
+    box-shadow: inset -5px -5px  rgba(0, 0, 0, 0.5) ;
+    border:none;
+    outline: none;
+    background-color: rgba(248, 247, 247, 0.952)  ;
+    
+}
+.submit:hover button{
+    cursor:pointer ;
+    background-color: rgba(103, 235, 204, 0.72);
+}
+.submit button{
+    width:100px;
+    height:40px;
+    margin:20px;
+     border-radius:20px;
+     box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+     font-size: 15px;
+     color:rgba(0, 0, 0, 0.758);
+     border:none;
+     outline:none;
+}
+.from h1{
+    font-size: 60px;
+    color: rgb(249, 248, 248);
+    
+}
+.from i{
+    left: 30px;
+    bottom: 3px;
+    transform:translateY(-20%);
+    font-size:20px;
+    color:beige
+}
