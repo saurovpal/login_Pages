@@ -1,0 +1,88 @@
+body{
+    border:1px solid black;
+    width: 500px;
+    height:450px;
+    margin:auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow:  5px 5px 8px 5px  rgb(59, 72, 57);
+    border:none;
+    background:url("../../picture/pex.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+body:hover{
+    box-shadow: 0px 2px 67px rgb(163, 243, 143);
+    transition: 0.10s;
+}
+.from h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial rgb(74, 73, 73);
+    margin-top: 20px;
+}
+.from{
+    text-align: center;
+}
+.btn {
+    text-align: center;
+}
+.reg{
+    text-align: center;
+}
+.email input{
+    width:400px;
+    height:40px;
+    padding: 8px;
+    border-radius: 20px;
+    margin:13px;
+    font-size: 23px;
+    box-shadow:  5px 5px  black;
+    border:none;
+    background-color: rgba(240, 255, 255, 0.849);
+
+}
+.pass input{
+    width:400px;
+    height: 40px;
+    padding:8px;
+    border-radius: 20px;
+    margin:13px;
+    font-size: 23px;
+    box-shadow:  5px 5px  black;
+    border:none;
+    background-color: rgba(240, 255, 255, 0.849);
+}
+.cack_box label{
+    margin-right: 150px;
+
+}
+.btn button{
+width: 200px;
+height: 40px;
+font-size: 23px; 
+border-radius: 20px;
+margin:18px;
+font-family: Arial rgb(74, 73, 73);
+border:none;
+box-shadow:  5px 5px  black;
+background-color: rgba(240, 255, 255, 0.849);
+}
+.cack_box a{
+    text-decoration: none;
+}
+.reg a{
+    text-decoration: none;
+}
+.email i{
+    font-size: 25px;
+    
+}
+.pass i{
+    font-size:25px;
+}
+.btn button:hover{
+    background-color:rgb(104, 207, 123);
+}
